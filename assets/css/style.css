@@ -1,0 +1,194 @@
+  
+* {
+  color: rgb(18, 121, 238)
+ 
+}
+.top-page {
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 40px;
+  background-image: url(../img/beach.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  font-family:  'Crimson Text', serif;
+ 
+}
+header {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 70px;
+  font-family:  'Crimson Text', serif;
+}
+.logo {
+  height: 80px;
+}
+li {
+  font-size: 20px;
+  float: left;
+  margin-left: 60px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.flag {
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 10px;
+}
+.main-visual {
+  height: 94vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-visual h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.main-visual p {
+  font-size: 26px;
+  color: white;
+  /* width: 80%; */
+  margin-top: 30px;
+  text-align: center;
+}
+
+.main-
+section {
+  padding: 0 70px;
+  padding-top: 100px;
+}
+h1 {
+  
+  font-family: 'Crimson Text', serif;
+  margin: 10px;
+}
+h2 {
+  font-size: 28px;
+  font-family: 'Crimson Text', serif;
+}
+p {
+  font-size: 16px;
+}
+.about-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+.contents-left img{
+  height: 300px;
+}
+.contents-right {
+  margin-left: 50px;
+}
+.contents-right h2 {
+  margin-bottom: 30px;
+}
+.box {
+  
+  padding: 5%;
+ 
+
+}
+.box-content {
+  display: flex;
+  align-items: center;
+  padding: right;
+  
+}
+#contact {
+  margin-bottom: 230px;
+}
+.contact-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  border-color: darkgray;
+}
+input, textarea {
+  width: 40%;
+  font-size: 23px;
+  margin-bottom: 18px;
+  padding: 3px 12px;
+}
+input, textarea, button {
+  border-radius: 5px;
+}
+textarea {
+  width: 40%;
+}
+button {
+  width: 140px;
+  font-size: 23px;
+  padding: 7px;
+  height: 60px;
+  background-color: #8acaca;
+  margin-top: 26px;
+  cursor: pointer;
+  color: white;
+  
+}
+button:hover {
+  color: #27d1e7;
+  
+
+}
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #badeec;
+}
+footer p {
+  color: white;
+}
+
+
+
+.lechon {
+  height: 200px;
+  zoom: 200%;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.jeepney {
+  height: 200px;
+  zoom: 180%;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.whalesharks {
+  height: 200px;
+  zoom: 180%;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.charch {
+  height: 200px;
+  zoom: 200%;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+ h1 {
+  font-size: 30px;
+ }
+ @media screen and (max-width:780px) { 
+     h2 { 
+       
+         font-size: 60px;
+     }
+     .box-content {
+       flex-direction: column;
+     }
+ }
